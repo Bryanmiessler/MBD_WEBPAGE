@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-color: orange;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+/* Navigation */
+
+.nav-main {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 50px;
+}
+
+/* Navigation Left*/
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main li {
+    padding: 10px;
+}
+
+.nav-main a {
+    padding: 2px;
+}
+
+.nav-main a:hover, a:focus {
+    border-bottom: 2px solid white; 
+}
+
+.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/*Showcase*/
+
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url(/img/showcase.jpg) no-repeat center center/cover;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.btn i {
+    margin-left: 5px;
+}
